@@ -123,7 +123,7 @@ namespace Ski_Equipment_Rental.UI
             SmtpServer.Port = 587;
             SmtpServer.EnableSsl = true;
             SmtpServer.UseDefaultCredentials = false;
-            SmtpServer.Credentials = new System.Net.NetworkCredential("skiequipmentrental19", "eyibqdqwxqazhujm");
+            SmtpServer.Credentials = new System.Net.NetworkCredential("skiequipmentrental19", "<password>");  // need to replace <password> (place holder) with actual password)
 
             SmtpServer.Send(mail);
             MessageBox.Show("המייל נשלח ללקוח");
